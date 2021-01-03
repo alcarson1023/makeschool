@@ -1,0 +1,17 @@
+.footer{
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    background-color: lightcoral;
+    position: fixed;
+    margin: -200px;
+
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .wrapper{
+  }

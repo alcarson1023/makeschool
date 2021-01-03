@@ -1,13 +1,14 @@
 import React from 'react'
-import logo from './logo.svg'
+import './POPOSSpace.css'
 
 function POPOSSpace(props) {
-    const { name, image, address } = props
+    const { name, image, address, hours } = props
   return (
-    <div>
-      <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Hello" />
-      <h1>{name}</h1>
-      <div>{address}</div>
+    <div className='card'>
+      <img className='img' src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Public Space" />
+      <h1 className='header' >{name}</h1>
+      <div className='address' >{address}</div>
+      <div>{hours}</div>
     </div>
   )
 }
