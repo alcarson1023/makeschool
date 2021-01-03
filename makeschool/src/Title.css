@@ -3,7 +3,8 @@
   box-sizing: border-box;
   width: 100%;
   display: flex;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: space-around;
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
